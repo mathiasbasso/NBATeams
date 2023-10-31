@@ -15,6 +15,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
 a {
   color: #f82249;
   text-decoration: none;
@@ -659,7 +660,7 @@ h2{
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/teams/bron-mj.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -817,7 +818,7 @@ h2{
 --------------------------------------------------------------*/
 #speakers-east {
   padding: 60px 0 30px 0;
-  background-color:rgba(20, 70, 235, 0.76);
+  background-color:rgba(13, 52, 182, 0.76);
 }
 
 #speakers-east .speaker-east {
@@ -923,7 +924,39 @@ h2{
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
-  padding: 60px 0 60px 0;
+  background: url("../img/teams/mj-pippen.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+@media (min-width: 1024px) {
+  #schedule {
+    background-attachment: fixed;
+  }
+}
+
+#schedule:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.card {
+  width: 300px; /* Defina a largura desejada para o card */
+  margin: 0 auto; /* Centralize o card horizontalmente */
+  padding: 20px; /* Adicione preenchimento interno conforme necessário */
+  border: 1px solid #ffffff; /* Adicione uma borda ou estilo desejado */
+  border-radius: 5px; /* Arredonde os cantos, se desejar */
+  opacity: 90%;
+  background:rgb(243, 235, 235);
 }
 
 #schedule .nav-tabs {
@@ -944,7 +977,7 @@ h2{
   border-radius: 50px;
   font-weight: 600;
   background-color: #0e1b4d;
-  color: #fff;
+  color: #000000;
   padding: 10px 100px;
 }
 
@@ -1171,6 +1204,30 @@ h2{
 # Gallery Section
 --------------------------------------------------------------*/
 #gallery {
+  background: url("../img/teams/lbj.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+@media (min-width: 1024px) {
+  #gallery {
+    background-attachment: fixed;
+  }
+}
+
+#gallery:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#gallery {
   padding: 60px;
   overflow: hidden;
 }
@@ -1183,7 +1240,7 @@ h2{
 #gallery .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #060c41;
   opacity: 1;
   border: 1px solid #f82249;
 }
